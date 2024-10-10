@@ -1,0 +1,24 @@
+.container_2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;        
+    background-color: rgb(255, 207, 207);
+    padding: 0;
+    margin: 0;
+}
+.item_4{
+    width: 25%;
+    color: rgb(251, 76, 76);
+    margin: 0 2%;
+}
+.item_5{
+    width: 25%;
+    color: rgb(255, 44, 237);
+    margin: 0 2%;
+}
+.item_6{
+    width: 25%;
+    color: rgb(253, 69, 183);
+    margin: 0 2%;
+}
