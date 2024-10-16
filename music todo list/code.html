@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="todo_css/conteiner_2.css">
         <link rel="stylesheet" href="todo_css/conteiner_3.css">
         <script src="todo_js/addItem.js" defer></script>
+        <script src="todo_js/listDisplay.js" defer></script>
     </head>
     <body>
     <header>
@@ -27,14 +28,17 @@
             </span>
         </span>
         <div class="container_2">
-            <h2 class="item_4">solo</h2>
-            <h2 class="item_5">backing</h2>
-            <h2 class="item_6">riff</h2>
+            <label for="list_bar_solo" class="item_4">solo</label>
+            <input type="checkbox" id="list_bar_solo"/>
+            <label for="list_bar_backing" class="item_5">backing</label>
+            <input type="checkbox" id="list_bar_backing"/>
+            <label for="list_bar_riff" class="item_6">riff</label>
+            <input type="checkbox" id="list_bar_riff"/>
         </div>
         <div class="container_3">
-            <ul class="item_list list_1"></ul>
-            <ul class="item_list list_2"></ul>
-            <ul class="item_list list_3"></ul>
+            <ul class="item_list list_1">ソロのリスト</ul>
+            <ul class="item_list list_2">バッキングのリスト</ul>
+            <ul class="item_list list_3">リフのリスト</ul>
         </div>
     </main>
     <footer></footer>

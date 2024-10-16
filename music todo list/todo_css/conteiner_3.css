@@ -12,6 +12,7 @@
     margin: 0 2%;
     width: 25%;
     height: 75%;
+    list-style: none;
 }
  .list_1{
     background-color: rgb(255, 249, 213);

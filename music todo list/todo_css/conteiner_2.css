@@ -22,3 +22,14 @@
     color: rgb(253, 69, 183);
     margin: 0 2%;
 }
+#list_bar_solo,
+#list_bar_backing,
+#list_bar_riff{
+    display: none;
+}
+.item_4,
+.item_5,
+.item_6{
+    font-size: 25px;
+    cursor: pointer;
+}
