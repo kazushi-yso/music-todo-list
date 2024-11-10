@@ -12,14 +12,15 @@ document.addEventListener("DOMContentLoaded",() => {
     riff.style.display = "none";*/
 
     soloCheckbox.addEventListener("change",() => {
-        solo.style.display = soloCheckbox.checked ? "block" : "none";
+        solo.style.visibility = soloCheckbox.checked ? 'visible' : 'hidden';
     });
 
     backingCheckbox.addEventListener("change", () => {
-        backing.style.display = backingCheckbox.checked ? "block" : "none";
+        backing.style.visibility = backingCheckbox.checked ? 'visible' : 'hidden';
     });
 
     riffCheckbox.addEventListener("change", () => {
-        riff.style.display = riffCheckbox.checked ? "block" : "none";
+        riff.style.visibility = riffCheckbox.checked ? 'visible' : 'hidden';
     });
 })
+fg

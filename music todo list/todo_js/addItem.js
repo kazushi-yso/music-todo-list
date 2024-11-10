@@ -33,11 +33,18 @@ if (itemInput) {
         listElement.innerHTML = ''
 
         list.forEach(item => {
+            const wrapper = document.createElement('div')
+            wrapper.classList.add('item-wrapper')
+            
             const li = document.createElement('li')
             li.textContent = item
+
             const checkbox = document.createElement('input')
             checkbox.type =  'checkbox'
-            li.appendChild(checkbox)
-            listElement.appendChild(li)
+            checkbox.classList.add('custom-checkbox')
+
+            wrapper.appendChild(li)
+            wrapper.appendChild(checkbox)
+            listElement.appendChild(wrapper)
         })
 }

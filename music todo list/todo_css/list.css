@@ -1,0 +1,26 @@
+.item-wrapper {
+  display: flex;
+  align-items: center; 
+  position: relative;
+}
+li {
+    font-size: 22px; 
+    overflow-x: auto;
+    white-space: nowrap;
+    flex: 1;
+    padding-right: 10px;
+}
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+    /* position: absolute; */
+    /* right: 0; */
+}
+li::-webkit-scrollbar{
+    display:none;
+  }
+.item_list::-webkit-scrollbar{
+  display:none;
+}

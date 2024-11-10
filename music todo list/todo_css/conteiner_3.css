@@ -12,14 +12,15 @@
     margin: 0 2%;
     width: 25%;
     height: 75%;
-    list-style: none;
+    list-style: none; 
+    overflow-y: scroll;
 }
  .list_1{
     background-color: rgb(255, 249, 213);
- }
+}
  .list_2{
     background-color: rgb(255, 249, 213);
 }
  .list_3{
     background-color: rgb(255, 249, 213);
- }
+}
